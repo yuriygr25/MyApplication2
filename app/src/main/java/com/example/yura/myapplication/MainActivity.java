@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         if (mNameEditText.getText().length() == 0) {
-            mHelloTextView.setText("Hello Kitty!");
+            mHelloTextView.setText("Hello Kitty!!!");
         } else {
             mHelloTextView.setText("Привет, " + mNameEditText.getText());
         }
